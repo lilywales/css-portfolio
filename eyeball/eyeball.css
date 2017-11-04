@@ -1,0 +1,51 @@
+.wrapper {
+  background: rgb(60, 85, 75);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.ball {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    background: radial-gradient(white, rgb(245, 237, 237), rgb(224, 217, 217));
+    margin: auto;
+    top: 20%;
+  }
+
+.iris{
+  position: relative;
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  background: radial-gradient(rgb(109, 221, 236), rgb(83, 179, 226), rgb(26, 69, 166));
+  top: 15%;
+  left: 10%;
+}
+
+.pupil{
+  position: relative;
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  background: radial-gradient(rgb(0, 0, 0), rgb(55, 57, 59) );
+  top: 15%;
+  left: 10%;
+}
+
+.reflection{
+  position: relative;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  background-color: white;
+  top: 10%;
+  left: 4%;
+
+}
