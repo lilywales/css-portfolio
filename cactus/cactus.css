@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   position: relative;
   margin: auto;
   display: block;
@@ -8,10 +8,9 @@
   height: 550px;
   background: rgb(246, 211, 254);
   /*transform: scale(0.8, 0.8);*/
-
 }
 
-.body{
+.body {
   position: relative;
   background-color: rgb(54, 182, 151);
   height: 47%;
@@ -24,10 +23,9 @@
   /*transform: matrix(1, -0.3, 0, 0.6, 0, 0);*/
   /*transform: rotate(180%);*/
   /*transform: perspective(70%);*/
-
 }
 
-.bodyshadow1{
+.bodyshadow1 {
   position: absolute;
   background-color: rgb(85, 214, 183);
   height: 86%;
@@ -37,10 +35,9 @@
   transform: skewX(-20deg);
   border-radius: 59% 62% 46% 34%;
   transform: rotate(201deg);
-
 }
 
-.bodyshadow2{
+.bodyshadow2 {
   position: absolute;
   background-color: rgb(144, 252, 226);
   height: 80%;
@@ -52,29 +49,30 @@
   transform: rotate(372deg);
 }
 
-.rightbranch{
+.rightbranch {
   position: relative;
-  background-color: rgb(85, 214, 183);
+  background-color: rgb(54, 182, 151);
   height: 40%;
   width: 41%;
   top: -20%;
   left: 81%;
   border-radius: 46% 47% 8% 177%;
   transform: rotate(428deg);
-}
-.rightbranchshadow{
-  position: absolute;
-  background-color: rgb(144, 252, 226);
-  height: 80%;
-  height: 40%;
-  width: 41%;
-  top: -20%;
-  left: 81%;
-  border-radius: 46% 47% 8% 177%;
-  transform: rotate(428deg);
+  z-index: -1;
 }
 
-.leftbranch{
+.rightbranchshadow {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 74%;
+  width: 71%;
+  top: 6%;
+  left: 5%;
+  border-radius: 46% 47% 47% 177%;
+  transform: rotate(362deg);
+}
+
+.leftbranch {
   position: absolute;
   background-color: rgb(54, 182, 151);
   height: 48%;
@@ -86,7 +84,7 @@
   z-index: -1;
 }
 
-.leftblob1{
+.leftblob1 {
   position: absolute;
   background-color: rgb(54, 182, 151);
   height: 39%;
@@ -95,4 +93,82 @@
   left: 97%;
   border-radius: 38% 59% 47% 0%;
   transform: rotate(371deg);
+}
+
+.leftbranchshadow {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 185%;
+  width: 231%;
+  top: -25%;
+  left: -232%;
+  border-radius: 37% 85% 29% 113%;
+  transform: rotate(348deg);
+}
+
+.leftbranchshadow1 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 58%;
+  width: 50%;
+  top: 3%;
+  left: 34%;
+  border-radius: 49% 107% 47% 113%;
+  transform: rotate(346deg);
+}
+
+.leftblob2 {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 53%;
+  width: 74%;
+  top: 11%;
+  left: 10%;
+  border-radius: 52% 101% 53% 113%;
+  transform: rotate(372deg);
+}
+
+.leftblob3 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 46%;
+  width: 42%;
+  top: 10%;
+  left: 30%;
+  border-radius: 198% 167% 136% 202%;
+  transform: rotate(507deg);
+}
+
+.rightbranchshadow2 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 15%;
+  width: 16%;
+  top: -16%;
+  left: 100%;
+  border-radius: 52% 107% 47% 47%;
+  transform: rotate(246deg);
+}
+
+.plantpotbase {
+  position: absolute;
+  background-color: rgb(119, 63, 35);
+  height: 77%;
+  width: 57%;
+  top: 72%;
+  left: 22%;
+  clip-path: polygon(89% 0%, -70% 37%, 96% 96%);
+  transform: rotate(270deg);
+}
+
+.plantpotbase2 {
+  position: absolute;
+  background-color: rgb(150, 83, 50);
+  height: 46%;
+  width: 52%;
+  top: 88%;
+  left: 10%;
+  clip-path: polygon(89% 0%, -21% 38%, -1% 96%);
+  transform: rotate(271deg);
+  z-index: 1;
 }
