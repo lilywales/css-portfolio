@@ -1,0 +1,139 @@
+.wrapper {
+  background: rgb(87, 89, 103);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+  overflow: hidden;
+}
+
+.shadow {
+  background: rgb(37, 37, 37);
+  display: block;
+  height: 70%;
+  width: 74%;
+  top: 37%;
+  left: 40%;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.rocket{
+  height: 41%;
+  width: 18%;
+  border-radius: 20% 20% 36% 36%;
+  background-color: rgba(197, 201, 207, 0.83);
+  transform: rotate(45deg);
+
+  position: absolute;
+  left: 44%;
+  top: 23%;
+}
+
+.rockettip{
+  height: 35%;
+  width: 91%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: rgba(255, 224, 18, 0.87);
+  position: absolute;
+  left: 5%;
+  top: -28%;
+}
+
+.windowframebig{
+  height: 28%;
+  width: 65%;
+  border-radius: 50%;
+  background-color: rgba(24, 24, 23, 0.87);
+  position: absolute;
+  left: 18%;
+  top: 19%;
+}
+
+.windowbig{
+  height: 81%;
+  width: 83%;
+  border-radius: 50%;
+  background-color: rgba(94, 213, 199, 0.73);
+  position: absolute;
+  left: 9%;
+  top: 10%;
+}
+
+.smallwindow{
+  position: relative;
+  height: 50%;
+  width: 50%;
+  top: 20%;
+  left: 20%;
+}
+
+.windowframesmall{
+  height: 39%;
+  width: 87%;
+  border-radius: 50%;
+  background-color: rgba(24, 24, 23, 0.87);
+  position: absolute;
+  left: 18%;
+  top: 69%;
+}
+
+.windowsmall{
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: rgba(94, 213, 199, 0.73);
+  position: absolute;
+  left: 11%;
+  top: 10%;
+}
+
+.bigflame{
+  position: absolute;
+  height: 43%;
+  width: 44%;
+  border-radius: 400% 400% 0% 0%;
+  background-color: rgba(246, 108, 31, 0.62);
+  transform: rotate(180deg);
+  top: 100%;
+  left: 29%;
+
+}
+
+.littleflame{
+  position: absolute;
+  height: 62%;
+  width: 44%;
+  border-radius: 400% 400% 0% 0%;
+  background-color: rgba(250, 223, 41, 0.73);
+  transform: rotate(0deg);
+  top: 38%;
+  left: 32%;
+}
+
+.leftwing{
+  position: absolute;
+  height: 13%;
+  width: 58%;
+  background-color: rgb(180, 179, 174);
+  overflow: hidden;
+  top: 81%;
+  left: 84%;
+  transform: rotate(54deg) skewX(43deg);
+
+}
+
+.rightwing{
+  position: absolute;
+  height: 13%;
+  width: 58%;
+  background-color: rgb(180, 179, 174);
+  overflow: hidden;
+  top: 81%;
+  left: -42%;
+  transform: rotate(-52deg) skewX(-43deg);
+
+}
