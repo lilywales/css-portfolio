@@ -1,6 +1,21 @@
+.largewrapper {
+  background: rgb(139, 100, 250);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+  z-index: -1;
+}
+
 .wrapper {
 
   position: relative;
+  top: 22%;
+  left: 35%;
+  transform: scale(1.5, 1.5);
 
 }
 

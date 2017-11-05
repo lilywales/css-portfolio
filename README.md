@@ -8,9 +8,9 @@ A portfolio of CCS designs, listed in order of production.
 
 [x] Eyeball
 
-[ ] Camera
+[x] Fried egg
 
-[ ] Fried eggs
+[ ] Camera
 
 [ ] Banana
 
