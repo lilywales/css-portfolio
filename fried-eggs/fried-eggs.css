@@ -1,0 +1,113 @@
+.wrapper {
+  background: rgb(241, 226, 145);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+  z-index: -1;
+
+}
+
+.panouter{
+  position: relative;
+  height: 56%;
+  width: 56%;
+  border-radius: 50%;
+  background-color: rgb(62, 63, 66);
+  left: 10%;
+  top: 10%;
+
+
+}
+
+.panmiddle{
+  position: relative;
+  height: 93%;
+  width: 93%;
+  border-radius: 50%;
+  background-color: rgb(22, 23, 27);
+  left: 3%;
+  top: 3.5%;
+
+}
+
+.paninside{
+  position: relative;
+  height: 76%;
+  width: 76%;
+  border-radius: 50%;
+  background-color: rgb(62, 63, 66);
+  left: 12%;
+  top: 11%;
+
+}
+
+.panhandle{
+  position: absolute;
+  height: 30%;
+  width: 7%;
+  background-color: rgb(22, 23, 27);
+  left: 88%;
+  top: 83.5%;
+  transform: rotate(139deg);
+
+}
+
+.panhandle2{
+  position: absolute;
+  height: 145%;
+  width: 150%;
+  background-color: rgb(62, 63, 66);
+  left: -31%;
+  top: -132.5%;
+  transform: rotate(178deg);
+  border-radius: 20% 20% 20% 20%;
+}
+
+.eggbase{
+  position: absolute;
+  height: 22%;
+  width: 16%;
+  background-color: white;
+  top: 26%;
+  left: 27%;
+  border-radius: 50%;
+  transform: rotate(30deg);
+}
+
+.egg1{
+  position: absolute;
+  height: 24%;
+  width: 16%;
+  background-color: white;
+  top: 26%;
+  left: 27%;
+  border-radius: 50%;
+  transform: rotate(121deg);
+
+}
+
+.yolk{
+  position: absolute;
+  height: 9.5%;
+  width: 8.5%;
+  background-color: rgb(250, 126, 12);
+  top: 31%;
+  left: 32%;
+  border-radius: 50%;
+  transform: rotate(258deg);
+}
+
+.yolkreflection{
+  position: absolute;
+  height: 36%;
+  width: 34%;
+  background-color: white;
+  top: 19%;
+  left: 49%;
+  border-radius: 50%;
+
+}
