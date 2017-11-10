@@ -28,7 +28,7 @@
   top: 71%;
   left: -1%;
   background-color: rgb(179, 204, 201);
-}
+
 
 .verticalstripeleft {
   position: absolute;
@@ -46,7 +46,7 @@
   left: 49%;
   background-color: rgb(13, 159, 200);
 }
-
+  
 .outerlens {
   position: absolute;
   height: 48%;
@@ -174,3 +174,5 @@
   left: 7%;
   background-color: rgb(184, 174, 164);
 }
+
+
