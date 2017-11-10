@@ -1,0 +1,54 @@
+.wrapper {
+  background: rgb(168, 237, 175);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.bl1{
+  height: 15%;
+width: 20%;
+background-color: rgb(168, 168, 168);
+position: relative;
+clip-path: polygon(79% 0%, 0% 100%, 100% 100%);
+transform: rotate(31deg);
+top: 51%;
+left: 20%;
+}
+
+.bl2{
+  height: 14%;
+      width: 14%;
+
+      top: 55%;
+      left: 33%;
+      background-color: rgb(199, 187, 187);
+      position: absolute;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      transform: rotate(-11deg);
+  }
+
+.bl3{
+  height: 13%;
+  width: 12%;
+  background-color: rgb(168, 168, 168);
+  position: absolute;
+  clip-path: polygon(84% 0%, 2% 190%, 207% 171%);
+  transform: rotate(58deg);
+  top: 61%;
+  left: 35%;
+}
+
+.bl4{
+  width: 14%;
+  top: 55%;
+  left: 33%;
+  background-color: rgb(199, 187, 187);
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(-11deg);
+}
