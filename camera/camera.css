@@ -1,0 +1,176 @@
+.wrapper {
+  background: rgb(174, 176, 244);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.mainbody {
+  position: relative;
+  background-color: rgb(224, 237, 236);
+  height: 44%;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0% 100%);
+  border-radius: 20% 20% 0% 0%;
+  overflow: hidden;
+}
+
+.horizontalstripe {
+  position: absolute;
+  height: 31%;
+  width: 111%;
+  top: 71%;
+  left: -1%;
+  background-color: rgb(179, 204, 201);
+}
+
+.verticalstripeleft {
+  position: absolute;
+  height: 42%;
+  width: 19%;
+  top: 58%;
+  left: 41%;
+  background-color: rgb(88, 196, 226);
+}
+
+.verticalstriperight {
+  height: 100%;
+  width: 51%;
+  top: 0%;
+  left: 49%;
+  background-color: rgb(13, 159, 200);
+}
+
+.outerlens {
+  position: absolute;
+  height: 48%;
+  width: 38%;
+  top: 26%;
+  left: 31%;
+  background-color: rgb(179, 204, 201);
+  border-radius: 50%;
+}
+
+.middlelens {
+  position: absolute;
+  height: 37%;
+  width: 28%;
+  top: 31%;
+  left: 36%;
+  background-color: rgb(124, 126, 126);
+  border-radius: 50%;
+}
+
+.innerlens {
+  position: absolute;
+  height: 29%;
+  width: 22%;
+  top: 35%;
+  left: 39%;
+  background-color: rgb(59, 59, 59);
+  border-radius: 50%;
+}
+
+.reflection {
+  position: absolute;
+  height: 21%;
+  width: 22%;
+  top: 6%;
+  left: 71%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.outerflash {
+  position: absolute;
+  height: 23%;
+  width: 17%;
+  top: 6%;
+  left: 72%;
+  ;
+  background-color: rgb(59, 59, 59);
+}
+
+.innerflash {
+  position: absolute;
+  height: 80%;
+  width: 75%;
+  top: 10%;
+  left: 14%;
+  background-color: rgb(124, 126, 126);
+}
+
+.buttonouter {
+  position: absolute;
+  height: 16%;
+  width: 12%;
+  top: 41%;
+  left: 13%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.button {
+  position: absolute;
+  height: 75%;
+  width: 74%;
+  top: 12%;
+  left: 13%;
+  background-color: rgb(255, 122, 73);
+  border-radius: 50%;
+}
+
+.bottom {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  height: 15%;
+  width: 60%;
+  top: 63%;
+  left: 20%;
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0% 100%);
+  border-radius: 20% 20% 0% 0%;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+.bottomshadow {
+  position: absolute;
+  background-color: rgb(29, 28, 28);
+  height: 12%;
+  width: 103%;
+  top: 89%;
+  left: 0%;
+}
+
+.tray {
+  position: absolute;
+  background-color: rgb(29, 28, 28);
+  height: 5%;
+  width: 46%;
+  top: 68%;
+  left: 27%;
+}
+
+.photo {
+  position: absolute;
+  height: 16%;
+  width: 42%;
+  top: 70%;
+  left: 29%;
+  background-color: rgb(255, 255, 255);
+}
+
+.photoinside {
+  position: absolute;
+  height: 66%;
+  width: 85%;
+  top: 0%;
+  left: 7%;
+  background-color: rgb(184, 174, 164);
+}

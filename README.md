@@ -10,10 +10,12 @@ A portfolio of CCS designs, listed in order of production.
 
 [x] Fried egg
 
-[ ] Camera
+[x] Rocket
+
+[x] Camera
 
 [ ] Banana
 
-[ ] Rocket
+
 
 [ ] Elephant
