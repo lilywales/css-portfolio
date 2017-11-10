@@ -1,0 +1,48 @@
+.wrapper {
+  background: rgb(174, 176, 244);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.mainbody {
+  position: relative;
+  background-color: rgb(189, 212, 210);
+  height: 44%;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0% 100%);
+  border-radius: 20% 20% 0% 0%;
+  overflow: hidden;
+}
+
+.horizontalstripe {
+  position: relative;
+  height: 31%;
+  width: 111%;
+  top: 71%;
+  left: -1%;
+  background-color: rgb(205, 231, 238);
+}
+
+.verticalstripeleft {
+  position: absolute;
+  height: 42%;
+  width: 26%;
+  top: 58%;
+  left: 38%;
+  background-color: rgb(88, 196, 226);
+}
+
+.verticalstriperight {
+  height: 100%;
+  width: 51%;
+  top: 0%;
+  left: 49%;
+  background-color: rgb(13, 159, 200);
+}
