@@ -1,0 +1,124 @@
+.wrapper {
+  background: rgb(167, 247, 216);
+  display: block;
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.headwrapper {
+  position: relative;
+  height: 35%;
+  width: 35%;
+  top: 33%;
+  left: 60%;
+}
+
+.head {
+  position: relative;
+  height: 75%;
+  width: 76%;
+  left: -5%;
+  top: 35%;
+  transform: rotate(202deg);
+  clip-path: polygon(29% 20%, 79% 31%, 100% 100%, 0 57%);
+  background-color: rgb(76, 76, 80);
+}
+
+.horn {
+  position: relative;
+  height: 63%;
+  top: -51%;
+  left: 33%;
+  clip-path: polygon(34% 95%, 28% 81%, 80% 44%, 54% 78%);
+  background-color: rgb(41, 42, 42);
+}
+
+.horn2 {
+  position: absolute;
+  height: 61%;
+  width: 90%;
+  left: 20%;
+  top: 24%;
+  transform: rotate(26deg);
+  clip-path: polygon(4% 55%, 66% 92%, 45% 52%);
+  background-color: rgb(76, 76, 80);
+}
+
+.neck {
+  position: relative;
+  height: 80%;
+  top: -138%;
+  left: -12%;
+  clip-path: polygon(26% 14%, 21% 75%, 41% 57%);
+  background-color: rgb(76, 76, 80);
+}
+
+.neck2 {
+  position: relative;
+  height: 109%;
+  top: -234%;
+  left: -65%;
+  transform: rotate(181deg);
+  clip-path: polygon(26% 14%, 21% 75%, 41% 57%);
+  background-color: rgb(41, 42, 42);
+}
+
+.ear {
+  position: relative;
+  height: 60%;
+  width: 56%;
+  top: -353%;
+  left: -6%;
+  transform: rotate(6deg);
+  background-color: rgb(41, 42, 42);
+  clip-path: polygon(51% 89%, 37% 65%, 56% 54%);
+}
+
+.body {
+  position: relative;
+  height: 42%;
+  width: 50%;
+  left: 18%;
+  top: -7%;
+  transform: rotate(-12deg);
+  clip-path: polygon(56% 100%, 6% 78%, 27% 14%, 74% 12%, 97% 35%);
+  background-color: rgb(76, 76, 80);
+}
+
+.frontleg {
+  position: relative;
+  height: 69%;
+  width: 50%;
+  left: 25%;
+  top: -57%;
+  transform: rotate(-3deg);
+  clip-path: polygon(55% 16%, 28% 68%, 50% 88%);
+  background-color: rgb(41, 42, 42);
+}
+
+.backleg {
+  position: relative;
+    height: 63%;
+    width: 53%;
+    left: -10%;
+    top: -122%;
+    transform: rotate(-8deg);
+  clip-path: polygon(85% 22%, 49% 90%, 34% 29%);
+  background-color: rgb(41, 42, 42);
+  z-index: 1;
+}
+
+.tail {
+  position: relative;
+  height: 33%;
+    width: 24%;
+    top: -181%;
+    left: 0%;
+    transform: rotate(66deg);
+  background-color: rgb(76, 76, 80);
+  clip-path: polygon(51% 89%, 37% 65%, 56% 54%);
+}
