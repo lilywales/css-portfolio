@@ -1,4 +1,4 @@
-A portfolio of CCS designs, listed in order of production.
+A portfolio consisting of 9 tiled CCS designs.
 
 [x] Fox
 
@@ -14,6 +14,6 @@ A portfolio of CCS designs, listed in order of production.
 
 [x] Camera
 
-[ ] Rhino
+[x] Rhino
 
-[ ] Banana
+[x] Squid
