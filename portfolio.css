@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.container{
+  background-color: rgb(187, 206, 247);
+  content: "";
+display: block;
+padding-bottom: 100%;
+}
+
+
+.row{
+  background-color: rgb(187, 206, 247);
+}
+
+.red {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+
+.blue {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+
+.yellow {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.grey {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+}
+
+.green {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}
+
+.purple {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: purple;
+}
+
+.lightblue {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: lightblue;
+}
+
+.lightgreen {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: lightgreen;
+}
+
+.pink {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+}
