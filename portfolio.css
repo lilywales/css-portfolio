@@ -1,79 +1,1354 @@
-* {
-    box-sizing: border-box;
 
-}
+/*Fried eggs*/
 
-.container{
-  background-color: rgb(187, 206, 247);
-  content: "";
-display: block;
-padding-bottom: 100%;
-}
-
-
-.row{
-  background-color: rgb(187, 206, 247);
-}
-
-.red {
+.eggswrapper {
+  background: rgb(241, 226, 145);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
   position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: red;
+  z-index: -1;
+
 }
 
-.blue {
+.panouter {
   position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: blue;
+  height: 56%;
+  width: 56%;
+  border-radius: 50%;
+  background-color: rgb(62, 63, 66);
+  left: 10%;
+  top: 10%;
 }
 
-.yellow {
+.panmiddle {
   position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: yellow;
+  height: 93%;
+  width: 93%;
+  border-radius: 50%;
+  background-color: rgb(22, 23, 27);
+  left: 3%;
+  top: 3.5%;
 }
 
-.grey {
+.paninside {
   position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: grey;
+  height: 76%;
+  width: 76%;
+  border-radius: 50%;
+  background-color: rgb(62, 63, 66);
+  left: 12%;
+  top: 11%;
 }
 
-.green {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: green;
+.panhandle {
+  position: absolute;
+  height: 30%;
+  width: 7%;
+  background-color: rgb(22, 23, 27);
+  left: 88%;
+  top: 83.5%;
+  transform: rotate(139deg);
 }
 
-.purple {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: purple;
+.panhandle2 {
+  position: absolute;
+  height: 145%;
+  width: 150%;
+  background-color: rgb(62, 63, 66);
+  left: -31%;
+  top: -132.5%;
+  transform: rotate(178deg);
+  border-radius: 20% 20% 20% 20%;
 }
 
-.lightblue {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: lightblue;
+.eggbase {
+  position: absolute;
+  height: 22%;
+  width: 16%;
+  background-color: white;
+  top: 26%;
+  left: 27%;
+  border-radius: 50%;
+  transform: rotate(30deg);
 }
 
-.lightgreen {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: lightgreen;
+.egg1 {
+  position: absolute;
+  height: 24%;
+  width: 16%;
+  background-color: white;
+  top: 26%;
+  left: 27%;
+  border-radius: 50%;
+  transform: rotate(121deg);
 }
 
-.pink {
+.yolk {
+  position: absolute;
+  height: 9.5%;
+  width: 8.5%;
+  background-color: rgb(250, 126, 12);
+  top: 31%;
+  left: 32%;
+  border-radius: 50%;
+  transform: rotate(258deg);
+}
+
+.yolkreflection {
+  position: absolute;
+  height: 36%;
+  width: 34%;
+  background-color: white;
+  top: 19%;
+  left: 49%;
+  border-radius: 50%;
+}
+
+
+/*squid*/
+
+.squidwrapper {
+  background: rgb(96, 210, 186);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
   position: relative;
-  height: 300px;
-  width: 300px;
-  background-color: pink;
+
+}
+
+.underbelly {
+  position: relative;
+  height: 25%;
+  width: 25%;
+  top: 41%;
+  left: 34%;
+  transform: rotate(-43deg);
+  border-radius: 0% 50%;
+  background-color: rgb(199, 96, 143);
+}
+
+.headtip {
+  position: relative;
+  height: 25%;
+  width: 25%;
+  top: -1%;
+  left: 34%;
+  transform: rotate(43deg);
+  border-radius: 0% 50% 50%;
+  background-color: rgb(223, 139, 178);
+  z-index: 1;
+}
+
+.squidhead {
+  position: relative;
+  height: 30%;
+  width: 25%;
+  top: -16%;
+  left: 34%;
+  border-radius: 0% 0% 50% 50%;
+  background-color: rgb(223, 139, 178);
+}
+
+.lefttip {
+  position: absolute;
+  height: 48%;
+  width: 30%;
+  top: -52%;
+  left: 13%;
+  transform: rotate(63deg);
+  border-radius: 0% 50% 50%;
+  background-color: rgb(187, 112, 147);
+}
+
+.righttip {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  top: -54%;
+  left: 53%;
+  transform: rotate(-66deg);
+  border-radius: 50% 0% 50% 50%;
+  background-color: rgb(187, 112, 147);
+}
+
+.squidspot1 {
+  position: absolute;
+  height: 24%;
+  width: 16%;
+  top: -39%;
+  left: 31%;
+  transform: rotate(48deg);
+  border-radius: 50%;
+  z-index: 1;
+  background-color: rgb(238, 188, 212);
+}
+
+.squidspot2 {
+  position: absolute;
+  height: 10%;
+  width: 11%;
+  top: -17%;
+  left: 17%;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: rgb(238, 188, 212);
+}
+
+.squideyeright {
+  position: absolute;
+  height: 29%;
+  width: 40%;
+  top: 65%;
+  left: 56%;
+  transform: rotate(48deg);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.squidpupil {
+  position: absolute;
+  height: 60%;
+  width: 46%;
+  top: 9%;
+  left: 35%;
+  transform: rotate(62deg);
+  border-radius: 50%;
+  background-color: rgb(27, 25, 25);
+}
+
+.squidreflection {
+  position: absolute;
+  height: 39%;
+  width: 46%;
+  top: 19%;
+  left: 20%;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.squideyeleft {
+  position: absolute;
+  height: 27%;
+  width: 38%;
+  top: 67%;
+  left: 11%;
+  transform: rotate(48deg);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.leg1 {
+  position: absolute;
+  height: 18%;
+  width: 11%;
+  top: 56%;
+  left: 64%;
+  transform: rotate(-56deg);
+  border-radius: 46% 0% 50% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg2 {
+  position: absolute;
+  height: 25%;
+  width: 42%;
+  top: -13%;
+  left: 59%;
+  transform: rotate(16deg);
+  border-radius: 46% 0% 0% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg3 {
+  position: absolute;
+  height: 99%;
+  width: 59%;
+  top: 0%;
+  left: 0%;
+  border-radius: 46% 24% 50% 0%;
+  background-color: rgb(238, 188, 212);
+}
+
+.sucker1 {
+  top: 10%;
+  left: 20%;
+}
+
+.sucker2 {
+  top: 41%;
+  left: 20%;
+}
+
+.sucker3 {
+  top: 71%;
+  left: 15%;
+}
+
+#sucker {
+  position: absolute;
+  height: 18%;
+  width: 40%;
+  border-radius: 50%;
+  background-color: rgb(187, 112, 147);
+}
+
+.leg4 {
+  position: absolute;
+  height: 25%;
+  width: 5%;
+  top: 63%;
+  left: 56%;
+  transform: rotate(151deg);
+  border-radius: 50% 50% 0% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg5 {
+  position: absolute;
+  height: 13%;
+  width: 17%;
+  top: 77%;
+  left: 59%;
+  transform: rotate(60deg);
+  border-radius: 46% 16% 85% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg6 {
+  position: absolute;
+  height: 105%;
+  width: 17%;
+  top: -45%;
+  left: 48%;
+  transform: rotate(-101deg);
+  border-radius: 46% 22% 94% 18%;
+  background-color: rgb(238, 188, 212);
+}
+
+.sucker4 {
+  top: 71%;
+  left: 15%;
+}
+
+.sucker5 {
+  top: 42%;
+  left: 15%;
+}
+
+.sucker6 {
+  top: 10%;
+  left: 23%;
+}
+
+.leg7 {
+  position: absolute;
+  height: 20%;
+  width: 6%;
+  top: 65%;
+  left: 39%;
+  transform: rotate(193deg);
+  border-radius: 50% 50% 0% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg8 {
+  position: absolute;
+  height: 34%;
+  width: 166%;
+  top: 10%;
+  left: 16%;
+  transform: rotate(101deg);
+  border-radius: 50% 0% 0% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg9 {
+  position: absolute;
+  height: 34%;
+  width: 100%;
+  top: -6%;
+  left: 0%;
+  transform: rotate(-2deg);
+  border-radius: 50% 14% 36% 0%;
+  background-color: rgb(238, 188, 212);
+}
+
+.sucker7 {
+  top: 10%;
+  left: 23%;
+  height: 30%;
+  width: 20%;
+}
+
+.sucker8 {
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  height: 30%;
+  width: 20%;
+}
+
+.leg10 {
+  position: absolute;
+  height: 15%;
+  width: 6%;
+  top: 54%;
+  left: 24%;
+  transform: rotate(225deg);
+  border-radius: 50% 50% 0% 0%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg11 {
+  position: absolute;
+  height: 101%;
+  width: 135%;
+  top: -42%;
+  left: -58%;
+  transform: rotate(-45deg);
+  border-radius: 0% 50% 50% 50%;
+  background-color: rgb(223, 139, 178);
+}
+
+.leg12 {
+  position: absolute;
+  height: 70%;
+  width: 74%;
+  top: -1%;
+  left: -18%;
+  transform: rotate(3deg);
+  border-radius: 39% 13% 50% 50%;
+  background-color: rgb(238, 188, 212);
+}
+
+.sucker8 {
+  top: 10%;
+  left: 12%;
+  height: 30%;
+  width: 20%;
+}
+
+.sucker9 {
+  top: 25%;
+  left: 2%;
+  height: 30%;
+  width: 20%;
+}
+
+
+/*cactus*/
+
+.cactuswrapper {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 4%;
+  margin-left: 4%;
+  width: 225px;
+  height: 225px;
+  background: rgb(246, 211, 254);
+
+}
+
+.cactuswrapper .cactusbody {
+  position: relative;
+  background-color: rgb(54, 182, 151);
+  height: 47%;
+  width: 37%;
+  left: 30%;
+  top: 34%;
+  transform: skewX(10deg);
+  border-radius: 50% 50% 40% 40%;
+}
+
+.bodyshadow1 {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 86%;
+  width: 81%;
+  left: 1%;
+  top: 1%;
+  transform: skewX(-20deg);
+  border-radius: 59% 62% 46% 34%;
+  transform: rotate(201deg);
+}
+
+.bodyshadow2 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 80%;
+  width: 81%;
+  left: 19%;
+  top: 25%;
+  transform: skewX(-20deg);
+  border-radius: 56% 48% 46% 34%;
+  transform: rotate(372deg);
+}
+
+.rightbranch {
+  position: relative;
+  background-color: rgb(54, 182, 151);
+  height: 40%;
+  width: 41%;
+  top: -20%;
+  left: 81%;
+  border-radius: 46% 47% 8% 177%;
+  transform: rotate(428deg);
+  z-index: -1;
+}
+
+.rightbranchshadow {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 74%;
+  width: 71%;
+  top: 6%;
+  left: 5%;
+  border-radius: 46% 47% 47% 177%;
+  transform: rotate(362deg);
+}
+
+.leftbranch {
+  position: absolute;
+  background-color: rgb(54, 182, 151);
+  height: 48%;
+  width: 41%;
+  top: -38%;
+  left: -13%;
+  border-radius: 37% 85% 29% 113%;
+  transform: rotate(330deg);
+  z-index: -1;
+}
+
+.leftblob1 {
+  position: absolute;
+  background-color: rgb(54, 182, 151);
+  height: 39%;
+  width: 40%;
+  top: 18%;
+  left: 97%;
+  border-radius: 38% 59% 47% 0%;
+  transform: rotate(371deg);
+}
+
+.leftbranchshadow {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 185%;
+  width: 231%;
+  top: -25%;
+  left: -232%;
+  border-radius: 37% 85% 29% 113%;
+  transform: rotate(348deg);
+}
+
+.leftbranchshadow1 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 58%;
+  width: 50%;
+  top: 3%;
+  left: 34%;
+  border-radius: 49% 107% 47% 113%;
+  transform: rotate(346deg);
+}
+
+.leftblob2 {
+  position: absolute;
+  background-color: rgb(85, 214, 183);
+  height: 53%;
+  width: 74%;
+  top: 11%;
+  left: 10%;
+  border-radius: 52% 101% 53% 113%;
+  transform: rotate(372deg);
+}
+
+.leftblob3 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 46%;
+  width: 42%;
+  top: 10%;
+  left: 30%;
+  border-radius: 198% 167% 136% 202%;
+  transform: rotate(507deg);
+}
+
+.rightbranchshadow2 {
+  position: absolute;
+  background-color: rgb(144, 252, 226);
+  height: 15%;
+  width: 16%;
+  top: -16%;
+  left: 100%;
+  border-radius: 52% 107% 47% 47%;
+  transform: rotate(246deg);
+}
+
+.plantpotbase {
+  position: absolute;
+  background-color: rgb(119, 63, 35);
+  height: 77%;
+  width: 57%;
+  top: 72%;
+  left: 22%;
+  clip-path: polygon(89% 0%, -70% 37%, 96% 96%);
+  transform: rotate(270deg);
+}
+
+.plantpotbase2 {
+  position: absolute;
+  background-color: rgb(150, 83, 50);
+  height: 46%;
+  width: 52%;
+  top: 88%;
+  left: 10%;
+  clip-path: polygon(89% 0%, -21% 38%, -1% 96%);
+  transform: rotate(271deg);
+  z-index: 1;
+}
+
+
+/*mushroom*/
+
+.bigwrapper {
+  background: rgb(145, 218, 241);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+
+}
+
+.mushroomwrapper {
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 15%;
+  left: 18%;
+  width: 225px;
+  height: 150px;
+  background: none;
+
+}
+
+.shroomtop {
+  height: 40%;
+  width: 50%;
+  background: linear-gradient(rgb(251, 90, 90), rgb(130, 31, 31));
+  border-radius: 50% 50% 20% 20%;
+}
+
+.spot1 {
+  height: 10%;
+  width: 7%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 20%;
+  left: 10%;
+}
+
+.spot2 {
+  height: 7%;
+  width: 5%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 35%;
+  left: 20%;
+}
+
+.spot3 {
+  height: 9%;
+  width: 6%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 13%;
+  left: 40%;
+}
+
+.spot4 {
+  height: 11%;
+  width: 8%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 8%;
+  left: 25%;
+}
+
+.spot5 {
+  height: 6%;
+  width: 4%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 25%;
+  left: 1%;
+}
+
+.spot6 {
+  height: 11%;
+  width: 8%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 27%;
+  left: 30%;
+}
+
+.spot7 {
+  height: 7%;
+  width: 5%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 8%;
+  left: 13%;
+}
+
+.stalk {
+  height: 50%;
+  width: 27%;
+  position: absolute;
+  left: 12%;
+  background: linear-gradient(to bottom right, rgb(74, 51, 25), rgb(204, 172, 157));
+  border-radius: 2% 2% 80% 80%;
+  z-index: 1;
+}
+
+
+/*camera*/
+
+.camerawrapper {
+  background: rgb(174, 176, 244);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+
+}
+
+.mainbody {
+  position: relative;
+  background-color: rgb(224, 237, 236);
+  height: 44%;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0% 100%);
+  border-radius: 20% 20% 0% 0%;
+  overflow: hidden;
+}
+
+.horizontalstripe {
+  position: absolute;
+  height: 31%;
+  width: 111%;
+  top: 71%;
+  left: -1%;
+  background-color: rgb(179, 204, 201);
+}
+
+.verticalstripeleft {
+  position: absolute;
+  height: 42%;
+  width: 19%;
+  top: 58%;
+  left: 41%;
+  background-color: rgb(88, 196, 226);
+}
+
+.verticalstriperight {
+  height: 100%;
+  width: 51%;
+  top: 0%;
+  left: 49%;
+  background-color: rgb(13, 159, 200);
+}
+
+.outerlens {
+  position: absolute;
+  height: 48%;
+  width: 38%;
+  top: 26%;
+  left: 31%;
+  background-color: rgb(179, 204, 201);
+  border-radius: 50%;
+}
+
+.middlelens {
+  position: absolute;
+  height: 37%;
+  width: 28%;
+  top: 31%;
+  left: 36%;
+  background-color: rgb(124, 126, 126);
+  border-radius: 50%;
+}
+
+.innerlens {
+  position: absolute;
+  height: 29%;
+  width: 22%;
+  top: 35%;
+  left: 39%;
+  background-color: rgb(59, 59, 59);
+  border-radius: 50%;
+}
+
+.reflection {
+  position: absolute;
+  height: 21%;
+  width: 22%;
+  top: 6%;
+  left: 71%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.outerflash {
+  position: absolute;
+  height: 23%;
+  width: 17%;
+  top: 6%;
+  left: 72%;
+  ;
+  background-color: rgb(59, 59, 59);
+}
+
+.innerflash {
+  position: absolute;
+  height: 80%;
+  width: 75%;
+  top: 10%;
+  left: 14%;
+  background-color: rgb(124, 126, 126);
+}
+
+.buttonouter {
+  position: absolute;
+  height: 16%;
+  width: 12%;
+  top: 41%;
+  left: 13%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.button {
+  position: absolute;
+  height: 75%;
+  width: 74%;
+  top: 12%;
+  left: 13%;
+  background-color: rgb(255, 122, 73);
+  border-radius: 50%;
+}
+
+.bottom {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  height: 15%;
+  width: 60%;
+  top: 63%;
+  left: 20%;
+  clip-path: polygon(9% 0, 91% 0, 100% 100%, 0% 100%);
+  border-radius: 20% 20% 0% 0%;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+.bottomshadow {
+  position: absolute;
+  background-color: rgb(29, 28, 28);
+  height: 12%;
+  width: 103%;
+  top: 89%;
+  left: 0%;
+}
+
+.tray {
+  position: absolute;
+  background-color: rgb(29, 28, 28);
+  height: 5%;
+  width: 46%;
+  top: 68%;
+  left: 27%;
+}
+
+.photo {
+  position: absolute;
+  height: 16%;
+  width: 42%;
+  top: 70%;
+  left: 29%;
+  background-color: rgb(255, 255, 255);
+}
+
+.photoinside {
+  position: absolute;
+  height: 66%;
+  width: 85%;
+  top: 0%;
+  left: 7%;
+  background-color: rgb(184, 174, 164);
+}
+
+
+/*rhino*/
+
+.rhinowrapper {
+  background: rgb(167, 247, 216);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.headwrapper {
+  position: relative;
+  height: 35%;
+  width: 35%;
+  top: 33%;
+  left: 60%;
+}
+
+.rhinowrapper .head {
+  position: relative;
+  height: 75%;
+  width: 76%;
+  left: -5%;
+  top: 35%;
+  transform: rotate(202deg);
+  clip-path: polygon(29% 20%, 79% 31%, 100% 100%, 0 57%);
+  background-color: rgb(76, 76, 80);
+}
+
+.horn {
+  position: relative;
+  height: 63%;
+  top: -51%;
+  left: 33%;
+  clip-path: polygon(34% 95%, 28% 81%, 80% 44%, 54% 78%);
+  background-color: rgb(41, 42, 42);
+}
+
+.horn2 {
+  position: absolute;
+  height: 61%;
+  width: 90%;
+  left: 20%;
+  top: 24%;
+  transform: rotate(26deg);
+  clip-path: polygon(4% 55%, 66% 92%, 45% 52%);
+  background-color: rgb(76, 76, 80);
+}
+
+.rhinoneck {
+  position: relative;
+  height: 80%;
+  top: -138%;
+  left: -12%;
+  clip-path: polygon(26% 14%, 21% 75%, 41% 57%);
+  background-color: rgb(76, 76, 80);
+}
+
+.neck2 {
+  position: relative;
+  height: 109%;
+  top: -234%;
+  left: -65%;
+  transform: rotate(181deg);
+  clip-path: polygon(26% 14%, 21% 75%, 41% 57%);
+  background-color: rgb(41, 42, 42);
+}
+
+.rhinoear {
+  position: relative;
+  height: 60%;
+  width: 56%;
+  top: -353%;
+  left: -6%;
+  transform: rotate(6deg);
+  background-color: rgb(41, 42, 42);
+  clip-path: polygon(51% 89%, 37% 65%, 56% 54%);
+}
+
+.body {
+  position: relative;
+  height: 42%;
+  width: 50%;
+  left: 18%;
+  top: -7%;
+  transform: rotate(-12deg);
+  clip-path: polygon(56% 100%, 6% 78%, 27% 14%, 74% 12%, 97% 35%);
+  background-color: rgb(76, 76, 80);
+}
+
+.frontleg {
+  position: relative;
+  height: 69%;
+  width: 50%;
+  left: 25%;
+  top: -57%;
+  transform: rotate(-3deg);
+  clip-path: polygon(55% 16%, 28% 68%, 50% 88%);
+  background-color: rgb(41, 42, 42);
+}
+
+.backleg {
+  position: relative;
+  height: 63%;
+  width: 53%;
+  left: -10%;
+  top: -122%;
+  transform: rotate(-8deg);
+  clip-path: polygon(85% 22%, 49% 90%, 34% 29%);
+  background-color: rgb(41, 42, 42);
+  z-index: 1;
+}
+
+.rhinotail {
+  position: relative;
+  height: 33%;
+  width: 24%;
+  top: -181%;
+  left: 0%;
+  transform: rotate(66deg);
+  background-color: rgb(76, 76, 80);
+  clip-path: polygon(51% 89%, 37% 65%, 56% 54%);
+}
+
+
+/*fox*/
+
+.largewrapper {
+  background: rgb(139, 100, 250);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+  z-index: -1;
+
+}
+
+.foxwrapper {
+  position: relative;
+  top: 3%;
+  left: -10%;
+  transform: scale(0.75, 0.75);
+}
+
+.ears {
+  height: 70px;
+  width: 120px;
+  background-color: rgb(238, 100, 49);
+  position: absolute;
+  top: 10px;
+  left: 105px;
+}
+
+.face {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(238, 100, 49);
+  position: relative;
+  overflow: hidden;
+  left: 90px;
+}
+
+.eye {
+  height: 100px;
+  width: 100px;
+  border-radius: 70%;
+  background-color: white;
+  position: absolute;
+  top: 65px;
+}
+
+.eyeleft {
+  left: -30px;
+}
+
+.eyeright {
+  right: -30px;
+}
+
+.nose {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 135px;
+  left: 150px;
+}
+
+.foxpupil {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  top: 40px;
+}
+
+.eyeleft .foxpupil {
+  left: 70px;
+}
+
+.eyeright .foxpupil {
+  right: 70px;
+}
+
+.foxtail {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(238, 100, 49);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  left: 37px;
+  top: 130px;
+  z-index: -1;
+}
+
+.neck {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(238, 100, 49);
+  position: absolute;
+  left: 150px;
+  top: -40px;
+}
+
+.justthetip {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-bottom-right-radius: 50%;
+}
+
+/*eyeball*/
+
+.eyeballwrapper {
+  background: rgb(60, 85, 75);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+
+}
+
+.ball {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    background: radial-gradient(white, rgb(245, 237, 237), rgb(224, 217, 217));
+    margin: auto;
+    top: 20%;
+  }
+
+.iris{
+  position: relative;
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  background: radial-gradient(rgb(109, 221, 236), rgb(83, 179, 226), rgb(26, 69, 166));
+  top: 15%;
+  left: 10%;
+}
+
+.pupil{
+  position: relative;
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  background: radial-gradient(rgb(0, 0, 0), rgb(55, 57, 59) );
+  top: 15%;
+  left: 10%;
+}
+
+.eyereflection{
+  position: relative;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  background-color: white;
+  top: 10%;
+  left: 4%;
+
+}
+
+/*rocket*/
+
+.rocketwrapper {
+  background: rgb(87, 89, 103);
+  display: block;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: 4%;
+  position: relative;
+  overflow: hidden;
+}
+
+.shadow {
+  background: rgb(37, 37, 37);
+  display: block;
+  height: 70%;
+  width: 74%;
+  top: 37%;
+  left: 40%;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.rocket{
+  height: 41%;
+  width: 18%;
+  border-radius: 20% 20% 36% 36%;
+  background-color: rgba(197, 201, 207, 0.83);
+  transform: rotate(45deg);
+
+  position: absolute;
+  left: 44%;
+  top: 23%;
+}
+
+.rockettip{
+  height: 35%;
+  width: 91%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: rgba(255, 224, 18, 0.87);
+  position: absolute;
+  left: 5%;
+  top: -28%;
+}
+
+.windowframebig{
+  height: 28%;
+  width: 65%;
+  border-radius: 50%;
+  background-color: rgba(24, 24, 23, 0.87);
+  position: absolute;
+  left: 18%;
+  top: 19%;
+}
+
+.windowbig{
+  height: 81%;
+  width: 83%;
+  border-radius: 50%;
+  background-color: rgba(94, 213, 199, 0.73);
+  position: absolute;
+  left: 9%;
+  top: 10%;
+}
+
+.smallwindow{
+  position: relative;
+  height: 50%;
+  width: 50%;
+  top: 20%;
+  left: 20%;
+}
+
+.windowframesmall{
+  height: 39%;
+  width: 87%;
+  border-radius: 50%;
+  background-color: rgba(24, 24, 23, 0.87);
+  position: absolute;
+  left: 18%;
+  top: 69%;
+}
+
+.windowsmall{
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: rgba(94, 213, 199, 0.73);
+  position: absolute;
+  left: 11%;
+  top: 10%;
+}
+
+.bigflame{
+  position: absolute;
+  height: 43%;
+  width: 44%;
+  border-radius: 400% 400% 0% 0%;
+  background-color: rgba(246, 108, 31, 0.62);
+  transform: rotate(180deg);
+  top: 100%;
+  left: 29%;
+
+}
+
+.littleflame{
+  position: absolute;
+  height: 62%;
+  width: 44%;
+  border-radius: 400% 400% 0% 0%;
+  background-color: rgba(250, 223, 41, 0.73);
+  transform: rotate(0deg);
+  top: 38%;
+  left: 32%;
+}
+
+.leftwing{
+  position: absolute;
+  height: 13%;
+  width: 58%;
+  background-color: rgb(180, 179, 174);
+  overflow: hidden;
+  top: 81%;
+  left: 84%;
+  transform: rotate(54deg) skewX(43deg);
+
+}
+
+.rightwing{
+  position: absolute;
+  height: 13%;
+  width: 58%;
+  background-color: rgb(180, 179, 174);
+  overflow: hidden;
+  top: 81%;
+  left: -42%;
+  transform: rotate(-52deg) skewX(-43deg);
+
 }
